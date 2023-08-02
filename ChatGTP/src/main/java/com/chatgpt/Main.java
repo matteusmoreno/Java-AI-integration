@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        OpenAiService service = new OpenAiService("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");
+        OpenAiService service = new OpenAiService("API_KEY");
 
         var leitura = new Scanner(System.in);
         System.out.println("Digite: ");
